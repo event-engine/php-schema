@@ -1,6 +1,6 @@
 {
   "name": "event-engine/php-schema",
-  "description": "Type schema definitions for Event Engine",
+  "description": "Event Engine PHP Type Definitions",
   "homepage": "https://event-engine.io/",
   "license": "MIT",
   "authors": [
@@ -32,7 +32,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "EventEngineTest\\": "tests/"
+      "EventEngineTest\\Schema\\": "tests/"
     }
   },
   "prefer-stable": true,
@@ -42,7 +42,7 @@
       "@docheader",
       "@test"
     ],
-    "docheader": "vendor/bin/docheader check examples/ src/ tests/",
+    "docheader": "vendor/bin/docheader check src/ tests/",
     "cs": "php-cs-fixer fix -v --diff --dry-run",
     "cs-fix": "php-cs-fixer fix -v --diff",
     "test": "vendor/bin/phpunit"

@@ -1,2 +1,3 @@
 # php-schema
-Type schema definitions for Event Engine
+
+Event Engine PHP Type Definitions
