@@ -16,10 +16,10 @@
     }
   ],
   "require": {
-    "php": "^7.2 || ^8.0",
-    "roave/security-advisories": "dev-master"
+    "php": "^7.2 || ^8.0"
   },
   "require-dev": {
+    "roave/security-advisories": "dev-latest",
     "phpunit/phpunit": "^8.0 || ^9.0",
     "prooph/php-cs-fixer-config": "^0.4",
     "php-coveralls/php-coveralls": "^2.0",
